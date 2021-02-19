@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 import re
+import sys
+sys.path.append("../common/")
 from convert_tools import *
 
 def stripOrderFromName(name):
